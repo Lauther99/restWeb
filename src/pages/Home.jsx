@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../components/NavBar';
 import Logo from '../assets/images/logoChe2.jpg'
 import '../assets/styles/home.css'
+import Menu from './Menu';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <div className='cheLogo'>
                 <img src={Logo} alt=""/>
             </div>
+            <Menu />
 
         </section>
     );

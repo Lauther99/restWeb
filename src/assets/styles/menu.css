@@ -1,0 +1,26 @@
+.slogan-container{
+    width: 100%;
+    padding: 5rem 2rem;
+    background-color: var(--main-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan-container h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: var(--main-color);
+    line-height: 60px;
+}
+
+.highlight{
+    font-size: 32px;
+    display: inline-block;
+    width: fit-content;
+    padding: 0 2rem;
+    position: relative;
+    clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0 100%);
+    text-align: center;
+}

@@ -6,6 +6,17 @@
     transition: all .5s;
 }
 
+:root{
+    --main-color: #722d14;
+    --main-bg-color: #eee;
+    --alt-bg-color: #fdeec9;
+    --main-highlight-bg: #fdeec9;
+    --alt-highlight-bg: #29510F;
+    --light-color-text: #eee;
+
+    --filter-color: #1515159a;
+}
+
 html{
     overflow-x: hidden;
 }

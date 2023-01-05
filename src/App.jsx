@@ -9,7 +9,6 @@ function App() {
     <HashRouter>
       <Routes>
         <Route path='/' element={<Home />} />
-
         {/* <Route path='/path/:id' element={<component />} /> */}
       </Routes>
     </HashRouter>

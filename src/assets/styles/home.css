@@ -9,7 +9,7 @@
 }
 
 .nav-container{
-    position: relative;
+    position: fixed;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -26,7 +26,7 @@
     text-align: center;
     font-size: 40px;
     font-weight: 600;
-    color: white;
+    color: var(--light-color-text);
 }
 
 .navbar-toggler:focus {
@@ -39,15 +39,15 @@
 }
 
 .nav-container{
-    background-color: #0000009f;
+    background-color: #151515bd;
     backdrop-filter: blur(800px);
 }
 
 .filter-image{
     position: relative;
     width: 100%;
-    height: calc(100% - 102px);
-    background-color: #1515158c;
+    height: 100%;
+    background-color: var(--filter-color);
 }
 
 .navbar-toggler-icon {
@@ -70,3 +70,13 @@
     height: 100%;
 
 }
+
+/* 
+    mirar el psudoelemetno active
+
+    .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: var(--bs-navbar-active-color);
+
+    porque se mantiene el color despues de haberlo presionado
+}
+*/
