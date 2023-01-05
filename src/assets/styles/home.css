@@ -1,0 +1,72 @@
+.home-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/homeImage.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.nav-container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 1.5rem;
+    z-index: 100 !important;
+}
+
+.navbar{
+    width: 100%;
+}
+
+.nav-link{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-toggler{
+    border: none;
+    border-radius: none;
+}
+
+.nav-container{
+    background-color: #0000009f;
+    backdrop-filter: blur(800px);
+}
+
+.filter-image{
+    position: relative;
+    width: 100%;
+    height: calc(100% - 102px);
+    background-color: #1515158c;
+}
+
+.navbar-toggler-icon {
+    background-image: url('../images/burgerMenu.svg');
+}
+
+.cheLogo{
+    width: calc(100% - 3rem);
+    max-width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.cheLogo img{
+    width: 100%;
+    height: 100%;
+
+}
