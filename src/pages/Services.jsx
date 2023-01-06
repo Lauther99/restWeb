@@ -60,7 +60,6 @@ const Services = () => {
                     />
                 </article>
             </article>
-
         </section>
     );
 };

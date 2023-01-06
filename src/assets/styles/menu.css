@@ -15,12 +15,25 @@
     line-height: 60px;
 }
 
-.highlight{
-    font-size: 32px;
-    display: inline-block;
-    width: fit-content;
-    padding: 0 2rem;
-    position: relative;
-    clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0 100%);
-    text-align: center;
+.menu-description{
+    width: 100%;
+    height: 50vh;
+    background-color: var(--alt-bg-color);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu-description p{
+    max-width: 550px;
+    font-size: 16px;
+    color: var(--main-color);
+}
+
+.menu-description a{
+    font-size: 30px;
+    font-weight: 600;
 }

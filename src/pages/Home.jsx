@@ -4,6 +4,7 @@ import Logo from '../assets/images/logoChe2.jpg'
 import '../assets/styles/home.css'
 import Menu from './Menu';
 import Services from './Services';
+import About from './About';
 
 const Home = () => {
     return (
@@ -15,7 +16,7 @@ const Home = () => {
             </div>
             <Menu />
             <Services />
-
+            <About />
         </section>
     );
 };
