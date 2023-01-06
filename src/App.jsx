@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { HashRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home'
+import './assets/styles/components.css'
 
 function App() {
 

@@ -13,12 +13,14 @@
     --main-highlight-bg: #fdeec9;
     --alt-highlight-bg: #29510F;
     --light-color-text: #eee;
+    --alt-color-text: #878787;
 
     --filter-color: #1515159a;
 }
 
 html{
     overflow-x: hidden;
+    background-color: var(--main-bg-color);
 }
 
 body {
@@ -38,4 +40,3 @@ button{
     border: none;
     cursor: pointer;
 }
-

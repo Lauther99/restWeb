@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar';
 import Logo from '../assets/images/logoChe2.jpg'
 import '../assets/styles/home.css'
 import Menu from './Menu';
+import Services from './Services';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
                 <img src={Logo} alt=""/>
             </div>
             <Menu />
+            <Services />
 
         </section>
     );
